@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Payment Form</title>
+</head>
+<body class="head">
+    <div >
+        <form action="fill" method="get">
+            <h1 style="text-align: center;" class="headline">Payment Form</h1>
+            <fieldset class="form"><legend><h2 class="ui">User Information</h2></legend>
+            Name: <input type="text" name="name" id="name" placeholder="Type Your Name Here" required>
+            <br>
+            <br>
+            <fieldset>
+            <legend>Gender:</legend>
+            <br>
+            <label for="male">
+                Male: <input type="radio" name="gender" id="male">
+            </label>
+            <label for="female">
+                Female: <input type="radio" name="gender" id="female">
+            </label>
+            <label for="other">
+                Other: <input type="radio" name="gender" id="other">
+            </label> </fieldset>
+            <br>
+           Address:
+           <textarea name="address" id="address" cols="15" rows="5" placeholder="Type Your Address"required></textarea>
+            <br> <br>
+            Nationality: <input type="text" name="nationality" id="nationality" placeholder="ex-Bangladeshi/British">
+            <br><br>
+           Date of Birth: <input type="date" name="date" id="date" required>
+           <br><br>
+           E-Mail: <input type="email" name="email" id="email" placeholder="www.dash1234@gmail.com"required>
+           <br><br>
+           Mobile Number: <input type="number" name="mobile_number" id="mobile_number" placeholder="Type Mobile Number"required>
+           <br><br>
+           <legend><h2 class="payment">Payment Information</h2></legend>
+           <br>
+           Card Type: <select name="card" id="card">
+               <option value="none">Select Your Card</option>
+               <option value="visa">Visa</option>
+               <option value="mastercard">mastercard</option>
+               <option value="pioneer">Pioneer</option>
+               <option value="bkash">Bkash</option>
+           </select>
+           <br><br>
+           Card Number: <input type="number" name="card_number" id="card_number" placeholder="Enter Your Card Number"required>
+           <br><br>
+           Expiration Date: <input type="date" name="ex_date" id="ex_date"required>
+           <br><br>
+           CVV: <input type="number" name="cvv" id="cvv" placeholder="1234"required>
+           <br><br>
+           Pincode: <input type="password" name="pincode" id="pincode" placeholder="Enter Your Pin"required>
+           <br><br>
+           Pay: <input type="number" name="pay" id="pay" placeholder="Enter the Amount You Want to Pay"required>
+           <br><br>
+           <input type="submit" value="Pay Now">
+        </fieldset>
+        </form>
+    </div>
+
+    
+</body>
+</html>

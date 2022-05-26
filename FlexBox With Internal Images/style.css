@@ -1,0 +1,85 @@
+
+.conatiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 2px;
+    object-fit: cover;
+}
+.div{
+    height: 500px;
+    width: 300px;
+    margin: 15px;
+    padding: 0px;
+    box-shadow: 6px 3px 8px black;
+}
+.img{
+    width: 100%;
+    object-fit: fill;
+    border-radius: 3px;
+} 
+.h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 22px black;
+}
+.p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.button{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#b3,#b1,#b2,#b4{
+    background-color: rgb(53, 52, 52);
+    color: aliceblue;
+    margin-top: 1px;
+    margin-bottom: 500px;
+    margin-left: 60px;
+    width: 60%;
+    height: 10%;
+    border: 0px;
+    box-shadow: 3px 3px 3px rgb(44, 44, 44);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: 600;
+    word-spacing: 2;
+}
+#b4{
+    margin-top: 20px;
+}
+ #b1{
+    margin-top: 10px;
+}
+#b1:hover{
+    background-color: gray;
+    color: white;
+}
+#b2:hover{
+    background-color: gray;
+    color: white;
+}
+#b3:hover{
+    background-color: gray;
+    color: white;
+}
+#b4:hover{
+    background-color: gray;
+    color: white;
+}
+@media all and (max-width:1375px){.fieldset{
+    width: 100%;
+    height: 1400px;
+}}
+@media all and (max-width:675px){.fieldset{
+    width: 100%;
+    height: 2400px;
+}}

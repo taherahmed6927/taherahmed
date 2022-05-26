@@ -1,0 +1,33 @@
+ul{
+    list-style: none;
+    columns: 5;
+    margin: 22px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 22px;
+    text-align: center;
+    background-color: lightblue;}
+
+@media all and (max-width:700px) and (min-width:300px){ nav{
+    position: fixed;
+    left: 18%;
+    text-align: center;
+ } }
+@media screen and (max-width: 700px;){p
+    {font-size: 30px;
+    }}
+
+@media screen and (min-width:700px){ p {
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}}
+@media screen and (max-width:300px) {p {
+display: none;
+}}
+@media all and (max-width:550px) and (min-width:300px){
+nav{
+        left: 12%;
+}}
+.a:hover{
+color: rgb(6, 30, 240); 
+}

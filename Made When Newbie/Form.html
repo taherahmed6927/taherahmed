@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Form </title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <h2>Contact Information</h2>
+    <h4>Name: <input type="text" name="name" required></h4>
+    <fieldset> 
+        <legend><h4 style="color: brown;">Gender</h4></legend>
+    <h4>Male: <input type="radio" name="gender" id="Male"> Female: <input type="radio" name="gender" id="Female"> Other: <input type="radio" name="gender" id="Other" required></h4>
+    </fieldset>
+     <h4>Address: <textarea name="Address" id="Address" cols="250" rows="5"></textarea></h4>
+     <h4>Email: <input type="email" name="email" id="email" required></h4>
+     <h4>Password: <input type="Password" name="password" id="Password"></h4>
+     <hr>
+     <h2>Payment Information</h2>
+     <h4>Card Type: <select name="Card_Type" id="Card_Type">
+         <option value="">Select a Card Type</option>
+         <option value="Visa">Visa</option>
+         <option value="MasterCard">MasterCard</option>
+         <option value="Bkash">Bkash</option>
+        </select>
+         <hr>
+         <h4>Card Type: (Please Select a Card Type)</h4> 
+         <h4>Bkash:<input type="radio" name="Card_Type" id="Bkash">Visa:<input type="radio" name="Card_Type" id="Visa">MasterCard: <input type="radio" name="Card_Type" id="MasterCard"></h4>     
+    </h4>
+    <h4>
+        Card Number:<input type="number" name="Card_Number" id="Card_Number">
+    </h4>
+    <h4>
+        Card Expiration Date: <input type="date" name="exp_date" id="exp_date">
+    </h4>
+    <h4>
+        CVV: <input type="password" name="CVV" id="CVV" required>
+    </h4>
+    <input type="submit" value="Pay Now" required>
+
+</body>
+</html>

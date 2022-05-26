@@ -1,0 +1,44 @@
+*{
+    flex-wrap: wrap;
+}
+.head{
+padding: 22px;
+background-color: aquamarine;
+background-attachment: fixed; }
+body{
+    background-color: #ececec;
+}
+nav{
+    color: whitesmoke;
+    padding: 22px;
+    overflow: hidden;
+}
+nav a{
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    float: right;
+}
+nav a:hover{
+    background-color: rgba(165, 165, 165, 0.753);
+    border-radius: 6px;
+}
+.h1{
+    color: white;
+    background-color: #333;
+    font-size: 30px;
+    text-align: right;
+    padding: 12px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+a{
+    padding: 10px 2px;
+    padding-top: 22px;
+}

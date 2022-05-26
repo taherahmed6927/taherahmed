@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box
+}
+.headline{
+    text-decoration: underline;
+}
+.head{
+    background-color: #059bcb;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:  200px;
+    padding: 200px;
+    font-size: 15px;
+}
+.form{
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid rgb(167, 164, 164);
+    border-radius: 22px;
+    background-color: #f2f2f2
+}
+#name,#nationality,#date,#email,#mobile_number,#card_number,#ex_date,#cvv,#pincode,#pay,textarea,select,#pay{
+    padding: 3px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(167, 164, 164);
+}
+fieldset{
+    border-radius: 12px;
+    border: 1px solid rgb(167, 164, 164);
+}
+input[type="submit"]{
+
+background-color: forestgreen;
+color: whitesmoke;
+border: 2px solid #808080;
+padding: 6px;
+border-radius: 10px;
+cursor: pointer;
+width: 100%;
+
+}
+input[type="submit"]:hover{
+color: black;
+background-color: rgb(78, 218, 78);
+}
+.payment{
+    text-decoration: underline;
+}
+.ui{
+    border: 2px solid rgb(175, 173, 173);
+    border-radius: 10px;
+    background-color: #f2f2f2;

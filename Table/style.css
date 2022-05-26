@@ -1,0 +1,52 @@
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: black;
+  font-size: large;
+  padding: 10px;
+  float: left;
+}
+nav {
+  background-color: black;
+  padding: 10px;
+  overflow: hidden;
+}
+nav a:hover {
+  color: red;
+}
+.a:visited {
+  color: royalblue;
+}
+.b:visited {
+  color: yellow;
+}
+.c:visited {
+  color: yellow;
+}
+.d:visited {
+  color: yellow;
+}
+.e:visited {
+  color: yellow;
+}
+
+table,th,td,tr{
+    border: 2px solid black;
+    padding: 15px;
+    border-spacing: 10px;
+    background-color: coral
+}
+td{
+    background-color: blanchedalmond;
+}
+th{
+    background-color:  gold
+}
+table{
+    text-align: left;
+    position: absolute;
+    top: 200px;
+    left: 760px;
+
+}
+
