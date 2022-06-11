@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+
+.firstpart{
+    background: url(cowboy/cowboy1.jpg);
+    background-attachment: scroll;
+    text-align: left;
+    height: 120vh;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    font-size: larger;
+    cursor: pointer;
+}
+ul, a{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar, .title{
+    padding-top: 5px;
+    padding-left: 22px;
+}
+.leftside{
+    margin-left: 50px;
+    position: relative;
+    left: 150px;
+    top: -90px;
+}
+.leftside a{
+    float: left;
+    padding: 14px 16px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.leftside a:hover{
+    padding-top: 20px;
+    text-decoration: underline;
+}
+.rightside a{
+    float: right;
+    padding: 30px 50px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: -110px;
+    transition: 0.6s ease;
+}
+.eng{
+    color: #333;
+}
+.test{
+    background-color: #000000;
+    color: #fff;
+    padding: 15px 10px;
+}
+.buy{
+    padding: 55px 10px;
+    background-color: #ff3465;
+    color: #fff;
+}
+.rightside a:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+/* I'm a cowboy title */
+
+.bigtitle{
+    position: absolute;
+    top: 75%;
+    right: 60%;
+    font-size: 110px;
+    font-weight: bold;
+}
+.fa-circle{
+    font-size: large;
+    color: black;
+}
+.pa{
+    font-size: 18px;
+    position: relative;
+    width: 100%;
+    color: #878583;
+}
+
+/* Brands */
+
+.company{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 40px 0;
+    background-color: #ff3465;
+}
+.company img{
+    width: 100%;
+}
+
+/* Bigpictures */
+
+.bigpicture1{
+    width: 100%;
+}
+.bigpicture1 img{
+    float: right;
+    width: 50%;
+}
+.text{
+    display: block;
+    position: relative;
+    top: 300px;
+    left: 150px;
+    height: 115.8%;
+}
+.text p, a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.bigpicture2{
+    width: 100%;
+}
+.bigpicture2 img{
+    display: block;
+    position: absolute;
+    width: 50%;
+}
+.text2{
+    display: block;
+    position: relative;
+    top: 400px;
+    left: 60%;
+    height: 114%;
+}
+.text2 p, a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.bigpicture3{
+    width: 100%;
+}
+.bigpicture3 img{
+    float: right;
+    width: 50%;
+}
+.text3{
+    display: block;
+    position: relative;
+    top: 350px;
+    left: 150px;
+    height: 120%;
+}
+
+/* reviews section */
+
+.reviews{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    height: 50%;
+}
+span{
+    font-size: 50px;
+    font-weight: 600;
+}
+.sp{
+    color: #ff3465;
+}
+.ff{
+    font-size: small;
+}
+.reviews p{
+    color: #878583;
+    font-weight: 300;
+}
+.fa-spin{
+    font-size: 33px;
+    position: relative;
+    left: 40%;
+    text-align: center;
+}
+.reviews a{
+    float: right;
+    display: block;
+    position: relative;
+    top: 50px;
+    right: 20%;
+    color: #ff3465;
+}
+.reviews a:hover{
+    color: #d66e86;
+}
+
+/* footer */
+.footer{
+    background: #000000;
+    height: 100%;
+}
+.f1,.f2,.f3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.footer a{
+    color: #878583;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+h4{
+    text-align: center;
+    text-decoration: underline;
+    color: #fff;
+}
+.icon{
+    float: left;
+    position: relative;
+    bottom: 200px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer; 
+}
+.icon,.fa-brands{
+    transition: all 0.5s;
+    right: 50px;
+    padding: 12px;
+}
+.icon .fa-brands:hover{
+    color: #878583;
+    
+}
+.mail{
+    float: left;
+    position: relative;
+    bottom: 400px;
+    left: 200px;
+    font-size: 20px;
+    color: #fff;
+}
+input{
+    padding: 15px 22px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+}
+
+
+/* span-every span tag which colored pink,
+spana is the 2nd one 
+and link is (discover the bike)  */
+
+.span{
+    font-size: 110px;
+    font-weight: bold;
+    color: #ff3465;
+}
+.spana{
+    font-size: 100px;
+    font-weight: 600;
+}
+.link{
+    color: #ff3465;
+}
+.link:hover{
+    color: #d66e86;
+}
